@@ -1,16 +1,31 @@
-# keep_in_touch_pilot
+# Keep in Touch (Pilot Uygulama)
 
-A new Flutter project.
+**Keep in Touch**, geleneksel kartvizit kullanımını dijitalleştiren, sürdürülebilirliği ve kolay paylaşımı ön planda tutan bir mobil çözümdür. Bu proje, fiziksel kartvizitlerin yerini alabilecek NFC ve QR destekli dijital kartvizit uygulamasının **pilot sürümüdür**.
 
-## Getting Started
+## Özellikler
 
-This project is a starting point for a Flutter application.
+- Ana ekran (profil bilgisi + hızlı işlemler)
+- QR kod oluşturma
+- NFC ile kart okutma
+- Kartvizit listesi görüntüleme
+- Kart düzenleme (iş/k.şisel)
+- Yeni kart oluşturma ekranı
+- Modern ve tutarlı UI (responsive + hover efektli)
 
-A few resources to get you started if this is your first Flutter project:
+## Kullanılan Teknolojiler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter & Dart
+- VS Code
+- Flutter Material Design
+- State Management (Stateless + Stateful)
+- Responsive UI (MediaQuery)
+- Custom Widget Kullanımı
+- Temiz Kod Yapısı (pages, widgets)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Kurulum
+
+```bash
+git clone https://github.com/NighterWhy/keep_in_touch_pilot.git
+cd keep_in_touch_pilot
+flutter pub get
+flutter run
