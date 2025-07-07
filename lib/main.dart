@@ -16,4 +16,6 @@ class MyApp extends StatelessWidget {
       home: const HomePage(),
     );
   }
+  print("Bu mesaj feature/guncelleme branch'inden geldi!");
+
 }
